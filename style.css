@@ -1,19 +1,49 @@
-      body {
-            margin: 0;
-            font-family: 'Bebas Neue', sans-serif;
-        }
-        header {
-            background-color: #d60000; /* Vermelho Flamengo */
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        header nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 20px;
-        }
-        header nav a:hover {
-            text-decoration: underline;
-        }
+body{
+    color: white;
+    background-color: black;
+    font-family: "Chakra Petch", sans-serif;
+   margin: 50px;}
+
+h1{font-size: 40px;}
+
+p{font-size: 20px;}
+
+header{
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(42, 122, 228);}
+
+.chamada{
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img {
+  height: 200px;
+}
+
+.categoriavideos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoriavideos img {
+     opacity: 0.5;
+}
+
+.categoriavideos img:hover {
+     opacity: 1.0;
+}
